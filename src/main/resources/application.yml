@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: password
+      database:  demo
+  jackson:
+    property-naming-strategy: SNAKE_CASE
